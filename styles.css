@@ -6,6 +6,7 @@ body {
     padding: 0;
 }
 
+
 .container {
     width: 100%;
     max-width: 100%;
@@ -28,11 +29,7 @@ img {
     height: 450px; /* default height for larger screens */
 }
 
-.apple-music-iframe {
-    width: 100%;
-}
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 100%) {
     .music-iframe iframe {
         height: 300px; /* height for smaller screens */
     }
