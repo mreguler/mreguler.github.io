@@ -31,8 +31,12 @@ img {
     height: 450px; /* default height for larger screens */
 }
 
-@media only screen and (max-width: 100%) {
+@media only screen and (max-width: 600px) {
     .music-iframe iframe {
-        height: 300px; /* height for smaller screens */
+        height: 500px; /* updated height for smaller screens */
+    }
+
+    iframe.content-item { /* targeting the YouTube iframe */
+        height: 500px; /* adjust this as needed */
     }
 }
