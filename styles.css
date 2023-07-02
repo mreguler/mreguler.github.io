@@ -7,12 +7,12 @@ body {
 }
 
 .container {
-    width: 90%;
-    max-width: 800px;
+    width: 100%;
+    max-width: 100%;
 }
 
 .content-item {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 img {
@@ -21,7 +21,7 @@ img {
 }
 
 .music-iframe iframe {
-    height: 200px; /* default height for larger screens */
+    height: 450px; /* default height for larger screens */
 }
 
 @media only screen and (max-width: 600px) {
