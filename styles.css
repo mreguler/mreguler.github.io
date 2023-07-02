@@ -6,6 +6,11 @@ body {
     padding: 0;
 }
 
+.container {
+    width: 90%;
+    max-width: 800px;
+}
+
 .content-item {
     margin-bottom: 20px;
 }
@@ -13,4 +18,14 @@ body {
 img {
     width: 100%;
     height: auto;
+}
+
+.music-iframe iframe {
+    height: 200px; /* default height for larger screens */
+}
+
+@media only screen and (max-width: 600px) {
+    .music-iframe iframe {
+        height: 300px; /* height for smaller screens */
+    }
 }
