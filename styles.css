@@ -17,6 +17,7 @@ body {
 }
 
 .content-item {
+    width: 100%; /* New line: Set a default width for all content items */
     margin-bottom: 0px;
 }
 
@@ -26,6 +27,7 @@ img {
 }
 
 .music-iframe iframe {
+    width: 100%; /* New line: Make sure the iframe takes the full width of its parent */
     height: 450px; /* default height for larger screens */
 }
 
