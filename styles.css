@@ -1,3 +1,22 @@
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 14px; /* You can adjust this value as needed */
+}
+
+.toolbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.toolbar {
+    font-weight: normal; /* This ensures that the second line isn't bold */
+}
+
+.toolbar span.active {
+    text-decoration: line-through;
+}
+
 body {
     font-family: 'IBM Plex Sans', sans-serif;
     display: flex;
@@ -6,7 +25,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 
 .container {
     width: 100%;
