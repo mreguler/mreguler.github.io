@@ -1,4 +1,5 @@
 body {
+    font-family: 'IBM Plex Serif', serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,6 +30,13 @@ img {
 .music-iframe iframe {
     width: 100%; /* New line: Make sure the iframe takes the full width of its parent */
     height: 450px; /* default height for larger screens */
+}
+
+footer {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
 }
 
 @media only screen and (max-width: 600px) {
