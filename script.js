@@ -18,3 +18,11 @@ function filterYear(year) {
         window.location.href = year + ".html";
     }
 }
+
+document.getElementById('yearSelect').addEventListener('change', function () {
+    filterYear(this.value);
+});
+
+document.getElementById('locationSelect').addEventListener('change', function () {
+    filterLocation(this.value);
+});
