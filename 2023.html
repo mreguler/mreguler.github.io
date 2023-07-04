@@ -12,23 +12,23 @@
         <div class="header">
             <h2>✧･ﾟ: *✧･ﾟ 𝒮𝒩𝒪𝑅𝒯 𝐵𝒜𝒮𝐼𝐿 ✧･ﾟ: *✧･ﾟ</h2>
             <nav class="toolbar">
-                <span data-year="all"><a href="index.html">ALL</a></span> | 
-                <span class="active" data-year="2023">2023</span> | 
-                <span data-year="2022"><a href="2022.html">2022</a></span> | 
-                <span data-year="2021"><a href="2021.html">2021</a></span>
+                <select id="yearSelect" onchange="filterYear(this.value)">
+                    <option value="all">ALL YEARS</option>
+                    <option value="2023" selected>2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                </select>
+                <select id="locationSelect" onchange="filterLocation(this.value)">
+                    <option value="all">ALL PLACES</option>
+                    <option value="berlin">BERLIN</option>
+                    <option value="istanbul">ISTANBUL</option>
+                    <option value="new-york-city">NEW YORK CITY</option>
+                    <option value="philadelphia">PHILADELPHIA</option>
+                    <option value="san-diego">SAN DIEGO</option>
+                    <option value="seoul">SEOUL</option>
+                    <option value="misc">MISC</option>
+                </select>
             </nav>
-            <br>
-            <nav class="toolbar">
-                <span class="location active" data-location="all">ALL</span> | 
-                <span class="location" data-location="berlin">BERLIN</span> |
-                <span class="location" data-location="istanbul">ISTANBUL</span> |
-                <span class="location" data-location="new-york-city">NEW YORK CITY</span> | 
-                <span class="location" data-location="philadelphia">PHILADELPHIA</span> | 
-                <span class="location" data-location="san-diego">SAN DIEGO</span> | 
-                <span class="location" data-location="seoul">SEOUL</span> | 
-                <span class="location" data-location="misc">MISC</span>
-            </nav>
-            <br>
         </div>        
         <div class="container">
             <img class="content-item lazyload" data-src="https://snortbasil2.files.wordpress.com/2023/07/2023-07-03-3.png" data-location="misc">

@@ -12,31 +12,31 @@
         <div class="header">
             <h2>✧･ﾟ: *✧･ﾟ 𝒮𝒩𝒪𝑅𝒯 𝐵𝒜𝒮𝐼𝐿 ✧･ﾟ: *✧･ﾟ</h2>
             <nav class="toolbar">
-                <span class="active" data-year="all">ALL</span> | 
-                <span data-year="2023"><a href="2023.html">2023</a></span> | 
-                <span data-year="2022"><a href="2022.html">2022</a></span> | 
-                <span data-year="2021"><a href="2021.html">2021</a></span>
+                <select id="yearSelect" onchange="filterYear(this.value)">
+                    <option value="all" selected>ALL YEARS</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                </select>
+                <select id="locationSelect" onchange="filterLocation(this.value)">
+                    <option value="all">ALL PLACES</option>
+                    <option value="berlin">BERLIN</option>
+                    <option value="bodrum">BODRUM</option>
+                    <option value="boston">BOSTON</option>
+                    <option value="honolulu">HONOLULU</option>
+                    <option value="istanbul">ISTANBUL</option>
+                    <option value="madrid">MADRID</option>
+                    <option value="new-york-city">NEW YORK CITY</option>
+                    <option value="paris">PARIS</option>
+                    <option value="park-city">PARK CITY</option>
+                    <option value="philadelphia">PHILADELPHIA</option>
+                    <option value="san-diego">SAN DIEGO</option>
+                    <option value="san-francisco">SAN FRANCISCO</option>
+                    <option value="seoul">SEOUL</option>
+                    <option value="misc">MISC</option>
+                </select>
             </nav>
-            <br>
-            <nav class="toolbar">
-                <span class="location active" data-location="all">ALL</span> | 
-                <span class="location" data-location="berlin">BERLIN</span> |
-                <span class="location" data-location="bodrum">BODRUM</span> | 
-                <span class="location" data-location="boston">BOSTON</span> | 
-                <span class="location" data-location="honolulu">HONOLULU</span> | 
-                <span class="location" data-location="istanbul">ISTANBUL</span> |
-                <span class="location" data-location="madrid">MADRID</span> |
-                <span class="location" data-location="new-york-city">NEW YORK CITY</span> | 
-                <span class="location" data-location="paris">PARIS</span> | 
-                <span class="location" data-location="park-city">PARK CITY</span> |
-                <span class="location" data-location="philadelphia">PHILADELPHIA</span> | 
-                <span class="location" data-location="san-diego">SAN DIEGO</span> | 
-                <span class="location" data-location="san-francisco">SAN FRANCISCO</span> |
-                <span class="location" data-location="seoul">SEOUL</span> | 
-                <span class="location" data-location="misc">MISC</span>
-            </nav>
-            <br>
-        </div>        
+        </div>       
         <div class="container">
             <img class="content-item lazyload" data-src="https://snortbasil2.files.wordpress.com/2023/07/2023-07-03-3.png" data-location="misc">
             <img class="content-item lazyload" data-src="https://snortbasil2.files.wordpress.com/2023/07/2023-07-03-2.png" data-location="misc">
@@ -267,7 +267,7 @@
             <img class="content-item lazyload" data-src="https://snortbasil2.files.wordpress.com/2023/07/screenshot-2023-07-02-at-5.28.18-pm.png" data-location="philadelphia">
             <img class="content-item lazyload" data-src="https://snortbasil2.files.wordpress.com/2023/07/screenshot-2023-07-02-at-5.28.25-pm.png" data-location="philadelphia">
             <img class="content-item lazyload" data-src="https://snortbasil2.files.wordpress.com/2023/07/screenshot-2023-07-02-at-5.28.51-pm.png" data-location="philadelphia">
-            <img class="content-item lazyload" data-src="https://snortbasil2.files.wordpress.com/2023/07/screenshot-2023-07-02-at-5.29.01-pm.png" data-location="bodrum">
+            <img class="content-item lazyload" data-src="https://snortbasil2.files.wordpress.com/2023/07/screenshot-2023-07-02-at-5.29.01-pm.png" data-location="istanbul">
             <img class="content-item lazyload" data-src="https://snortbasil2.files.wordpress.com/2023/07/screenshot-2023-07-02-at-5.29.41-pm.png" data-location="bodrum">
             <img class="content-item lazyload" data-src="https://snortbasil2.files.wordpress.com/2023/07/screenshot-2023-07-02-at-5.30.07-pm.png" data-location="bodrum">
             <img class="content-item lazyload" data-src="https://snortbasil2.files.wordpress.com/2023/07/screenshot-2023-07-02-at-5.30.13-pm.png" data-location="bodrum">
