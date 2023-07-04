@@ -4,13 +4,15 @@
     font-size: 14px; /* You can adjust this value as needed */
 }
 
-.toolbar a {
-    text-decoration: none;
-    color: black;
+.toolbar {
+    margin: 0 30px; /* 0 is top and bottom margin, 20px is left and right margin */
+    font-weight: normal;
 }
 
-.toolbar {
-    font-weight: normal; /* This ensures that the second line isn't bold */
+.toolbar span, .toolbar a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
 }
 
 .toolbar span.active {
@@ -36,18 +38,8 @@ body {
 }
 
 .content-item {
-    width: 100%; /* New line: Set a default width for all content items */
-    margin-bottom: 0px;
-}
-
-img {
     width: 100%;
-    height: auto;
-}
-
-.music-iframe iframe {
-    width: 100%; /* New line: Make sure the iframe takes the full width of its parent */
-    height: 450px; /* default height for larger screens */
+    margin-bottom: 0px;
 }
 
 footer {
@@ -64,13 +56,5 @@ footer {
     
     footer {
         font-size: 16px; /* Adjust as necessary */
-    }
-
-    .music-iframe iframe {
-        height: 500px; /* Updated height for smaller screens */
-    }
-
-    iframe.content-item { /* Targeting the YouTube iframe */
-        height: 315px; /* Adjust this as needed */
     }
 }
